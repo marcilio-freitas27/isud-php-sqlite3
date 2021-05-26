@@ -8,7 +8,7 @@
 * Bootstrap 5;
 * DataTable;
 
-mas o Xampp tb é uma boa opção.
+*Usando o servidor `php -S localhost:porta`, mas o Xampp tb é uma boa opção.
 
 ## Sobre
 
