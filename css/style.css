@@ -1,0 +1,47 @@
+thead tr th{
+    border: 1px solid black;
+}
+
+tbody tr td{
+    border: 1px solid black;
+}
+
+table tr td:hover{
+    background-color: #ccc;
+}
+
+table.dataTable.no-footer{
+    border-bottom: 0px;
+}
+
+main {
+    max-width: 100%;
+}
+
+a{
+    text-decoration:none;
+    color: #111;
+    text-transform:none;
+}
+
+table.dataTable {
+    border-collapse: collapse;
+}
+
+a:-webkit-any-link {
+    color: #111;
+}
+
+.session{
+    text-align: center;
+    color: green;
+    font-weight: bold;
+
+}
+
+.session-nome{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+
+}
