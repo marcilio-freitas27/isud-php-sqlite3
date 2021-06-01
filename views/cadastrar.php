@@ -1,8 +1,14 @@
 <link rel="stylesheet" href="\css\style.css">
 
-<div class="flex-body">  
+<div class="flex-body">
   <main class="form-signin container">
-    <form class="" action="?funcao=inserir" method="POST" role="form">
+    <div style="text-align: justify;">
+      <div class="h-100 p-3 text-white btn-danger rounded-3">
+        <p>Nome: Ter mais de 2 letras.</p>
+        <p>Senha: 8 caracteres, 2 letras, 2 números e 2 caracteres especiais. </p>
+      </div>
+    </div>
+    <form style="padding-top: 20px;" action="?funcao=inserir" method="POST" role="form">
       <div style="text-align: center;"><img class="mb-4" src="img/m-logo.png" alt="" width="72" height="57"></div>
       <h1 style="text-align: center;" class="h3 mb-3 fw-normal">Cadastre-se</h1>
 

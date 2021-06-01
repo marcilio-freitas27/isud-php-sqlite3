@@ -1,11 +1,12 @@
 <?php
 
+include "database/Mydb.php";
+
 $id = $_GET['id'];
 $sql = "SELECT * FROM usuarios WHERE id = $id";
-$pdo = new PDO("sqlite:F:\workspace\isud-php+sqlite3\database\database.sqlite3");
-$pdo->query($sql);
-
-$prepare = $pdo->query($sql);
+$pdo = new Mydb;
+$pdo->__construct()->query($sql);
+$prepare = $pdo->__construct()->query($sql);
 
 foreach ($prepare as $row){
 

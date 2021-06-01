@@ -48,7 +48,6 @@ function validaSenhaCarcateres($senha){
     }else {
         return true;
     }
-    
-    
+        
 }
 

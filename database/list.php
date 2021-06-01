@@ -2,9 +2,11 @@
 <link rel="stylesheet" href="\css\style.css">
 <?php
 
+include "database/Mydb.php";
+
+$pdo = new Mydb;
 $sql = "SELECT * FROM usuarios";
-$pdo = new PDO("sqlite:F:\workspace\isud-php+sqlite3\database\database.sqlite3");
-$prepare =  $pdo->query($sql);
+$prepare =  $pdo->__construct()->query($sql);
 
 echo "<h1 class='h1'>Usuarios</h1>";
 sendMessage();
